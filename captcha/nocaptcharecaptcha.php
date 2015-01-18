@@ -2,14 +2,14 @@
 /**
 *
 * @package VC
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-2.0.php GNU Public License
 *
 */
 
 namespace bpat1434\nocaptcharecaptcha\captcha;
 
 /**
-* Sortables captcha with extending of the QA captcha class.
+* Implementation of the "NoCAPTCHA" ReCAPTCHA from Google.
 *
 * @package VC
 */
