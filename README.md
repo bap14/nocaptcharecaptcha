@@ -12,8 +12,8 @@ An extension for phpBB 3 which uses the new "NoCAPTCHA" ReCAPTCHA from Google.
 
 1. Download this extension.
 2. Create a directory `bpat1434` under the `ext` directory.
-3. Create the directory `nocaptcha_recaptcha` under the `bpat1434` created in the previous step.
-4. Extract the contents of the downloaded extension to `ext/bpat1434/nocaptcha_recaptcha`.
+3. Create the directory `nocaptcharecaptcha` under the `bpat1434` created in the previous step.
+4. Extract the contents of the downloaded extension to `ext/bpat1434/nocaptcharecaptcha`.
 5. Navigate in the ACP to `Customize -> Manage extensions`.
 6. Look for `NoCAPTCHA ReCAPTCHA` under the Disabled Extensions list, and click its `Enable` link.
 7. Set up and configure the NoCAPTCHA ReCAPTCHA by navigating in the ACP to `General -> Board Configuration -> Spambot countermeasures`.
@@ -22,7 +22,7 @@ An extension for phpBB 3 which uses the new "NoCAPTCHA" ReCAPTCHA from Google.
 
 1. Choose a different Spambot Countermeasure in the ACP at `General -> Board Configuration -> Spambot countermeasures`.
 2. Go to `Customize -> Manage extensions` and click its `Disable` link.
-3. To permanently uninstall, delete the `ext/bpat1434/nocaptcha_recaptcha` directory.
+3. To permanently uninstall, delete the `ext/bpat1434/nocaptcharecaptcha` directory.
 
 ## License
 
