@@ -1,0 +1,21 @@
+services:
+    bpat1434.nocaptcharecaptcha.subscriber:
+        class: bpat1434\nocaptcharecaptcha\event\subscriber
+        arguments:
+            - @config
+            - @template
+            - @user
+        tags:
+            - { name: event.listener }
+    bpat1434.nocaptcharecaptcha.captcha.nocaptcharecaptcha:
+        class: bpat1434\nocaptcharecaptcha\captcha\nocaptcharecaptcha
+        calls:
+            - [set_name, [bpat1434.nocaptcharecaptcha.captcha.nocaptcharecaptcha]]
+        arguments:
+            - @dbal.conn
+            - @cache
+            - @config
+            - @template
+            - @user
+        tags:
+            - { name: captcha.plugins }

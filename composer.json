@@ -1,0 +1,26 @@
+{
+	"name": "bpat1434/nocaptcharecaptcha",
+	"type": "phpbb-extension",
+	"description": "Google NoCaptcha ReCaptcha for phpBB 3",
+	"homepage": "https://github.com/bpat1434/nocaptcharecaptcha",
+	"keywords": ["phpbb", "captcha", "anti-spam"],
+	"version": "0.0.1",
+	"time": "2015-01-17",
+	"license": "GPL-2.0",
+	"authors": [{
+			"name": "Brett Patterson",
+			"homepage": "https://github.com/bpat1434/nocaptcharecaptcha",
+			"role": "Developer"
+		}],
+	"require": {
+		"php": ">=5.3.3",
+		"composer/installers": "~1.0",
+		"ext-curl": "*"
+	},
+	"extra": {
+		"display-name": "NoCAPTCHA ReCAPTCHA",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.1.2"
+		}
+	}
+}
